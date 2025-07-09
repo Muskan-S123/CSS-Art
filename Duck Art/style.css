@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: chartreuse;
+}
+
+.container {
+    width: 400px;
+    height: 370px;
+    border: 1px solid white;
+    top: 20%;
+    position: absolute;
+    left: 35%;
+}
+
+.face {
+    width: 140px;
+    height: 135px;
+    background-color: yellow;
+    border-radius: 50%;
+    top: 20px;
+    position: absolute;
+    left: 60px;
+
+}
+
+.body {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 141px;
+    background-color: yellow;
+    top: 110px;
+    left: 40px;
+    border-radius: 70px;
+
+}
+.feather{
+    width: 160px;
+    height: 90px;
+    background-color:rgb(255, 148, 17);
+    position: absolute;
+    top: 0.8px;
+    left: 60px;
+    border-radius: 50px 100px 0 50px;
+    
+}
+.eyes{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: -70px;
+    left: -45px;
+    border-radius: 50%;
+box-shadow: 0 0 0  9px  white;
+}
+.beak{
+    width: 70px;
+    height: 30px;
+    background-color: orangered;
+    position: absolute;
+    left: -90px;
+    border-radius: 0px 30px ;
+}
+.beak::before{
+    content: "";
+    position: absolute;
+    width: 69px;
+    height: 15px;
+    background-color: rgb(231, 158, 22);
+    top: 29px;
+    left: 1px;
+    border-radius: 20px 0 ;
+
+}
+.legs{
+    width: 10px;
+    height: 35px;
+    background-color: orange;
+    position: absolute;
+    top: 210px;
+    left: 160px;
+}
+.legs1{
+    position: absolute;
+     width: 10px;
+    height: 35px;
+    background-color: orange;
+    left: 30px;
+
+}
+.foot{
+    width: 39px;
+    height: 9px;
+    background-color: brown;
+    position: absolute;
+    top: 30px;
+    left: -16px;
+    border-radius: 5px;
+
+}
+.foot1{
+    content: "";
+     width: 36px;
+    height: 9px;
+    background-color: brown;
+    position: absolute;
+    top: 1px;
+    left: -34px;
+    border-radius: 5px;
+}
